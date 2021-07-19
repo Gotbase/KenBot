@@ -1,7 +1,7 @@
 version: "3"
 
 services:
-  octobot:
+  kenbot:
     image: gotbase/kenbot:stable
     environment:
       - VIRTUAL_HOST=${HOST}
