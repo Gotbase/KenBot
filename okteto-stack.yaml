@@ -1,5 +1,5 @@
 services:
-  octobot:
+  kenbot:
     public: true
     image: $DOCKER_IMAGE
     environment:
