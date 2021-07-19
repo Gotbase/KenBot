@@ -1,0 +1,9 @@
+spec:
+  name: kenbot
+  services:
+  - dockerfile_path: Dockerfile
+    git:
+      branch: master
+      repo_clone_url: https://github.com/gotbase/kenbot
+    name: kenbot
+    http_port: 5001
