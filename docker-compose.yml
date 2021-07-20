@@ -2,7 +2,7 @@ version: "3"
 
 services:
   kenbot:
-    image: drakkarsoftware/octobot:stable
+    image: gotbase/kenbot:stable
     environment:
       - VIRTUAL_HOST=${HOST}
       - VIRTUAL_PORT=5001
